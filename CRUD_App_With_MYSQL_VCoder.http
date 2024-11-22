@@ -1,0 +1,6 @@
+@CRUD_App_With_MYSQL_VCoder_HostAddress = http://localhost:5246
+
+GET {{CRUD_App_With_MYSQL_VCoder_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

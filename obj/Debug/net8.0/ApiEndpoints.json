@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "CRUD_App_With_MYSQL_VCoder.Controllers.CrudAppController",
+    "Method": "AddInformation",
+    "RelativePath": "api/CrudApp/AddInformation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CRUD_App_With_MYSQL_VCoder.CommonLayer.Model.AddInformationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUD_App_With_MYSQL_VCoder.Controllers.CrudAppController",
+    "Method": "DeleteInformationByID",
+    "RelativePath": "api/CrudApp/DeleteInformationByID",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CRUD_App_With_MYSQL_VCoder.CommonLayer.Model.DeleteInformationByIDRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUD_App_With_MYSQL_VCoder.Controllers.CrudAppController",
+    "Method": "ReadAllInformation",
+    "RelativePath": "api/CrudApp/ReadAllInformation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUD_App_With_MYSQL_VCoder.Controllers.CrudAppController",
+    "Method": "UpdateAllInformationById",
+    "RelativePath": "api/CrudApp/UpdateAllInformationById",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CRUD_App_With_MYSQL_VCoder.CommonLayer.Model.UpdateInformation\u002BUpdateAllInformationByIdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

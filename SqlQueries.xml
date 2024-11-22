@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Queries>
+	<AddInformation>
+		<!-- #UserName, EmailID, MobileNumber, Salary, Gender -->
+		<![CDATA[
+		INSERT INTO crudApplication(UserName, EmailID, MobileNumber, Salary, Gender) 
+					         VALUES (@UserName, @EmailID, @MobileNumber, @Salary, @Gender);
+		]]>
+	</AddInformation>
+
+	<ReadInformation>
+		<![CDATA[
+		SELECT * 
+		FROM CrudApplication
+		where IsActive=1;
+		]]>
+	</ReadInformation>
+	<UpdateAllInformationById>
+		<![CDATA[
+		UPDATE CrudApplication
+		SET UserName=@UserName, 
+		    EmailID=@EmailID, 
+			MobileNumber=@MobileNumber, 
+			Salary=@Salary, 
+			Gender=@Gender
+		WHERE UserId=@UserId;
+		]]>
+	</UpdateAllInformationById>
+	<DeleteInformationByID>
+		<![CDATA[
+		UPDATE CrudApplication
+		SET IsActive=0
+		WHERE UserId=@Id;
+		]]>
+	</DeleteInformationByID>
+</Queries>
